@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "0xProto";
+    src: url("fonts/0xProto-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "0xProto";
+    src: url("fonts/0xProto-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "0xProto";
+    src: url("fonts/0xProto-Italic.woff2") format("woff2");
+    font-weight: 400;
+    font-style: italic;
+}
+
+html {
+    background-color: #333333;
+}
+
+body {
+    font-family: "0xProto", monospace;
+    color: #99cdcc;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.navbar a {
+    color: #f59a23;
+    text-decoration: none;
+    transition: color 0.5s ease;
+}
+
+.navbar a:hover {
+    color: #ffffff;
+}
+
+.highlight {
+    color: #7ec636; 
+}
+
+.topic {
+    padding: 30px 0;
+}
+
+.quote {
+    color: #ff9797;
+    display: flex;
+    font-size: 24px;
+}
+
+.quotefollow {
+    display: flex;
+    font-size: 12px;
+    color: #ff9797;
+    margin-bottom: 50px;
+}
+
+.topic h2 {
+    color: #fdff85;
+}
+
+.photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.photo img {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+}
+
+.photofollow {
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        grid-template-columns: 1fr; 
+        gap: 20px;
+        text-align: center;
+    }
+}
