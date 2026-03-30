@@ -19,10 +19,6 @@
     font-style: italic;
 }
 
-* {
-    /* border: 1px solid #7ec636; */
-}
-
 html {
     background-color: #333333;
 }
@@ -43,7 +39,25 @@ body {
     margin-bottom: 50px;
 }
 
-.navbar a {
+.nav-left {
+    justify-self: start;
+}
+
+.nav-center {
+    justify-self: center;
+}
+
+.nav-right {
+    justify-self: end;
+}
+
+.nav-left a {
+    color: #7ec636;
+    text-decoration: none;
+    transition: color 0.5s ease;
+}
+
+.nav-center a {
     color: #f59a23;
     text-decoration: none;
     transition: color 0.5s ease;
@@ -55,6 +69,10 @@ body {
 
 .highlight {
     color: #7ec636; 
+}
+
+.whitelight {
+    color: #ffffff;
 }
 
 .topic {
