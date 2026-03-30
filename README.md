@@ -1,3 +1,3 @@
 # Toxsuh.github.io
-
-# yadda yadda
+This is my personal website!
+swiper no swiping
