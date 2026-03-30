@@ -87,7 +87,7 @@ body {
     height: auto;
 }
 
-.photofollow {
+.photo-follow {
     max-width: 400px;
     width: 100%;
     text-align: center;
@@ -100,4 +100,8 @@ body {
         gap: 20px;
         text-align: center;
     }
+}
+
+.intro {
+    margin: 30px 0;
 }
